@@ -1,0 +1,180 @@
+
+
+
+
+
+.logo
+{
+margin: 3px;
+
+}
+
+h1 {
+    
+  padding: 30px;
+    float: left;
+  font-size: 50px;
+  font-style: italic;
+}
+.divNavbar {
+  border-bottom: 4mm ridge rgba(0, 55, 41, 0.6);
+  border-top: 4mm ridge rgba(0, 55, 41, 0.6);
+}
+.listaNavbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #666;
+  top: 0;
+  width: 100%;
+}
+
+.elementListaNavbar {
+  float: left;
+  border-right: 7px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4caf50;
+}
+
+body {
+  background-color: lightblue;
+}
+.paraProgram {
+  color: black;
+  margin-top: 50px;
+  margin-left: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.program {
+  margin-left: 0px;
+  padding: 20px;
+  list-style-type: circle;
+  font-weight: bold;
+  text-align: center;
+  list-style-position: inside;
+}
+
+#wrapper {
+  width: 100%;
+  display: table;
+}
+
+#page {
+  width: 90%;
+  height: 500px;
+  border-left: 4mm ridge rgba(0, 55, 41, 0.6);
+}
+#left-colum {
+  width: 10%;
+  height: 500px;
+}
+
+#left-column,
+#page {
+  display: table-cell;
+}
+
+dt {
+  font-size: 20px;
+  padding: 10px;
+  margin-left: 15px;
+  font-style: italic;
+}
+
+dd {
+  margin-right: 40px;
+  padding: 10px;
+  font-size: 17px;
+  margin-left: 40px;
+}
+
+h3 {
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+.distributie {
+  text-align: center;
+  font-weight: bold;
+}
+
+#hero-section
+{
+    
+    background-color: darkkhaki;
+    background-image: url('backgroundImageHero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.castelJpg {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 500px;
+  margin-left: 80px;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+
+.castelJpg_ {
+  margin-left: 50px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 500px;
+  height: 400px;
+}
+
+.formular {
+  text-align: center;
+  margin: 20px;
+}
+
+#mesaj {
+  margin-top: 10px;
+  padding: 30px;
+}
+
+h3 {
+  margin-top: 70px;
+}
+
+footer {
+  border-top: 4mm ridge rgba(0, 55, 41, 0.6);
+}
+
+.dateContact {
+  margin-left: 50px;
+  padding: 10px;
+}
+
+iframe {
+  outline: 1px solid black;
+  display: block;
+  float: center;
+  width: 1000px;
+  height: 400px;
+  
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 150px;
+}
